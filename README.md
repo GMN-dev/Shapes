@@ -39,3 +39,46 @@ Este projeto segue os princípios da Programação Orientada a Objetos (POO), co
    - Insira a cor da forma (PRETO/VERMELHO/AZUL).
    - Insira as dimensões da forma (largura e altura para retângulos, raio para círculos).
 4. Após inserir os detalhes de todas as formas, o sistema exibirá as áreas calculadas.
+
+
+<br><br>
+
+# Shape Area Calculator with Object-Oriented Programming (OOP) Approach
+
+This project is a simple shape area calculator developed in Java, with an emphasis on Object-Oriented Programming (OOP) principles and abstraction. It allows the user to input dimensions of rectangles and circles and calculates their areas.
+
+## Description
+
+The system prompts the user to input the number of shapes they want to calculate the area for. Then, for each shape, the user is asked to specify whether it's a rectangle or a circle, as well as the color of the shape. Based on the user's input, the system calculates and displays the area of each shape.
+
+## Features
+
+- Calculate the area of rectangles and circles.
+- Input dimensions and color for each shape.
+- Display the area of each shape.
+
+## Object-Oriented Programming (OOP) Approach
+
+This project follows the principles of Object-Oriented Programming (OOP), with a focus on abstraction. Classes are used to represent real-world concepts, such as geometric shapes, and are organized in hierarchies to facilitate modeling and code reuse.
+
+## Classes
+
+1. **Shape:** Abstract class representing a generic shape. Contains a field for the color and an abstract method to calculate the area.
+2. **Rectangle:** Concrete class representing a rectangle. Inherits from Shape and contains fields for width and height.
+3. **Circle:** Concrete class representing a circle. Also inherits from Shape and contains a field for the radius.
+4. **Main:** Main class containing the main method to run the application. Prompts the user for input, creates instances of Rectangle and Circle, calculates their areas, and displays the results.
+
+## Technologies Used
+
+- Programming Language: Java
+- Input Handling: java.util.Scanner
+
+## How to Use
+
+1. Run the Main.java file.
+2. Enter the number of shapes you want to calculate the area for.
+3. For each shape, follow the instructions provided by the system:
+   - Specify whether it's a rectangle or a circle (r/c).
+   - Enter the color of the shape (BLACK/RED/BLUE).
+   - Enter the dimensions of the shape (width and height for rectangles, radius for circles).
+4. After entering the details for all shapes, the system will display the calculated areas.
